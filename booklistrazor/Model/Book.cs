@@ -14,6 +14,7 @@ namespace booklistrazor.Model
         [Required]
         public string BookName { get; set; }
         public string Author { get; set; }
+        public string ISBN { get; set; }
 
 
     }
